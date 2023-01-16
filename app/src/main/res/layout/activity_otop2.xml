@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242527"
+    tools:context=".otop2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="ไร่กาแฟจ่านรินทร์"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:translationY="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:src="@drawable/faa1"
+                android:layout_width="match_parent"
+                android:layout_height="295dp"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="    ใครที่กำลังวางแพลนไปเที่ยวเขาค้อ อยากหาร้านนั่งจิบกาแฟ ซื้อของฝาก เราแนะนำว่าลองแวะไปที่ไร่กาแฟจ่านรินทร์กันไหมคะ จุดเริ่มต้นของไร่กาแฟจ่านรินทร์เริ่มจากพี่จ่านรินทร์ และพี่เล็ก สองสามีภรรยาจากกรุงเทพฯ ที่มาเที่ยวเขาค้อและตกหลุมรักอยากจะมาใช้ชีวิตที่นี่  "
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnBACK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BackPage"
+                android:text="BACK"
+                android:background="#333436"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/back02"
+                android:translationX="12dp" />
+
+            <Button
+                android:id="@+id/btnHOME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="HomePage"
+                android:text="HOME"
+                android:background="#333436"
+                android:textColor="@color/white"
+                android:translationX="73dp"
+                android:drawableLeft="@drawable/home01"/>
+
+            <Button
+                android:id="@+id/btnNEXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="NextPage"
+                android:text="NEXT"
+                android:background="#333436"
+                android:textColor="@color/white"
+                android:translationX="133dp"
+                android:drawableRight="@drawable/go01"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#242527"
+    tools:context=".myme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="566dp"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="444dp"
+                android:layout_height="421dp"
+                android:src="@drawable/cell01"
+
+                android:translationX="-10dp"
+                android:translationY="-30dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nutthatwut Phosrithong"
+                android:textColor="#E4E5EA"
+                android:textColorHighlight="#8F6969"
+                android:textSize="24sp"
+                android:translationY="-20dp" />
+
+            <Button
+                android:id="@+id/FB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333436"
+                android:fontFamily="sans-serif-medium"
+                android:text="Facebook"
+                android:textColor="#E4E5E7"
+                android:translationY="25dp"
+                android:drawableLeft="@drawable/facebook_svgrepo_com"
+                app:iconTint="#B2B3B5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="Tell.   062-497-7952"
+                android:textColor="#E8E9EB"
+                android:textSize="24dp"
+                android:translationY="-68dp" />
+
+            <Button
+                android:id="@+id/btnHME"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#333436"
+                android:gravity="center"
+                android:onClick="HomePage"
+                android:text="BACK"
+                android:drawableLeft="@drawable/back02"
+                android:textColor="@color/white"
+                app:iconTint="#B5B6B8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

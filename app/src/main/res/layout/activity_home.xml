@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/va01"
+
+    tools:context=".home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="สิ่งที่น่าสนใจ"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ในตำบลริมสีม่วง"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="284dp"
+            android:translationY="50dp"
+            />
+
+        <LinearLayout
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnTra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#333436"
+                android:onClick="PageView"
+                android:text="สถานที่ท่องเที่ยว"
+                android:textColor="@color/white"
+                android:translationY="90dp" />
+
+            <Button
+                android:id="@+id/btnOTOP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#333436"
+                android:onClick="OTPView"
+                android:text="สินค้า OTOP"
+                android:textColor="@color/white"
+                android:translationY="100dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHOME"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#333436"
+            android:drawableLeft="@drawable/back02"
+            android:gravity="center"
+            android:onClick="LoginPage"
+            android:text="BACK"
+            android:textColor="@color/white"
+            android:translationY="-20dp"
+            app:iconTint="#B5B6B8" />
+
+    </LinearLayout>
+
+</LinearLayout>
